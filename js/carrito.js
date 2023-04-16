@@ -13,7 +13,7 @@ function vaciarCarrito() {
 }
 
 function estaEnElCarrito(id) {
-    const carrito = cargarProductosCarrito(); //array
+    const carrito = cargarProductosCarrito(); 
     
     return carrito.some(item => item.id === id);
 }
